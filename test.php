@@ -14,10 +14,11 @@
 echo"<h1>Hellojävlar $name<h1>";
 
 
-$tal1 = 24;
-$tal2 = 26;
+$tal1 = 24; // integer
+$tal2 = "26"; //string
+$tal3 = 256.123; // double
 
-echo $tal1  +  $tal2;
+echo $tal1  +  $tal2 + $tal3;
 
 
 ?>
